@@ -7,8 +7,10 @@ A feature rich image panel component for the WxWidgets library. I created this d
 - Capable of loading images in various formats (bitmap, file, raw data etc.).
 - Built in loading screen when loading an image (turned off by default).
 
+**DEPENDENCY NOTE: Some of the loading functions require the stb_image.h file. If you have no intentions of using those functions, you may remove the stb header file completely.**
+
 ## Usage
-Simply include the imagePanel header file and use the imagePanel like any other wxWidgets panel.
+Simply include the imagePanel header file in your project and use the imagePanel like any other wxWidgets panel.
 
   Simple Example Usage:
 
