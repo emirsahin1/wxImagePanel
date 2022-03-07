@@ -14,14 +14,11 @@ Simply include the imagePanel header file in your project and use the imagePanel
 
   Simple Example Usage:
 
-<a>
-<img src="readme_Images/panel1.jpg" width="500"/>
-</a>
+```
+imagePanel = new imagePanel(this);
+m_hBox->Add(imagePanel, 5, wxExpand);
+```
  
-How to turn on loading screen:
-
-<a>
-<img src="readme_Images/panel2.jpg" width="500"/>
-</a>
+Instructions on using the loading screen can be found in the code. 
 
 ## A full example of it's usage can be seen <a href="https://github.com/emirsahin1/ImageBench">here</a> 
